@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS hello (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  msg VARCHAR(255) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO hello (msg) VALUES ('こんにちは MySQL × Docker 👋');
