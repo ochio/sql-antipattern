@@ -4,4 +4,4 @@ CREATE TABLE IF NOT EXISTS hello (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-INSERT INTO hello (msg) VALUES ('こんにちは MySQL × Docker 👋');
+INSERT INTO hello (msg) VALUES ('hello world');
